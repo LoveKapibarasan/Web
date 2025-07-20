@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "tag": "",
+    "SfenList": [
+      
+    ],
+    "commentList": [
+        ""
+    ]
+  },
+  {
+    "id": 1,
+    "tag": "#角の両取り",
+    "SfenList": [
+      "sfen 3g5/9/9/9/3s5/9/9/9/9 b B 1", "sfen 3g5/9/1B7/9/3s5/9/9/9/9 b - 1"
+    ],
+    "commentList": [
+        "✖印　のLine. <br> 偶数:奇数のマス目の時にも注意。"
+    ]
+  },
+  {
+    "id": 2,
+    "tag": "#早逃げ",
+    "SfenList": [
+      "sfen ln1g2+B2/2sks2+R1/ppppp4/9/4P4/9/9/9/9 b SP 1", "sfen lnkg2+B2/2s1s2+R1/ppppp4/9/4P4/9/9/9/9 b SP 1"
+    ],
+    "commentList": [
+        "相手の攻めが始まる1手前に、あらかじめ自玉を安全な位置へ移動させる手。<br>両取りや縛りを防ぐ。"
+    ]
+  },
+  {
+    "id": 3,
+    "tag": "#馬を引き付ける",
+    "SfenList": [
+      "sfen 9/9/3pp4/9/3PKPs2/9/2Bg5/9/9 b Bg 1", "sfen 9/9/3pp3B/9/3PKPs2/9/2Bg5/9/9 w g 2"
+    ],
+    "commentList": [
+        "馬を引き付け、　守備に活かす。"
+    ]
+  },
+  {
+    "id": 4,
+    "tag": "#焦点の退路封鎖",
+    "SfenList": [
+      "sfen 9/9/9/9/5l3/2+B6/1P1PP4/3K1G3/9 b gsnp 1","sfen 9/9/9/9/5l3/2+B6/1PpPP4/3K1G3/9 b gsn 1"
+    ],
+    "commentList": [
+        "焦点に捨て駒をすることで利きを鈍らせる + 逃げ道を埋める"
+    ]
+  },
+  {
+    "id": 5,
+    "tag": "#8段目の飛の隣に銀",
+    "SfenList": [
+      "sfen 9/9/9/9/9/3bPB2P/5sNS1/2r3GK1/1+p6L b S2P 1","sfen 9/9/9/9/9/3bPB2P/5sNS1/2rS2GK1/1+p6L b 2P 1"
+    ],
+    "commentList": [
+        "飛車の横利き完全シャットアウト"
+    ]
+  },
+  {
+    "id": 6,
+    "tag": "#要の駒を消す",
+    "SfenList": [
+      "sfen 1n1g5/6+b2/2p1+R4/1p3r3/2ks5/P1N6/1+b1GP4/L8/9 b G 1","sfen 1n1g5/9/2p1+R4/1p2+br3/2ks5/P1N6/1+b1GP4/L8/9 b G 1"
+    ],
+    "commentList": [
+      "要の(特に成り駒)に働きかけて消去"
+    ]
+  },
+]
