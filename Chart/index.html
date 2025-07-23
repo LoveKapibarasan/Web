@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chart with CDN</title>
+  <!-- ✅ Load Chart.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="myChart" width="800" height="400"></canvas>
+
+  <script>
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    // Example data (you can customize this)
+    const values = [-3300, -2200, -1100, 0, 1100, 2200, 3300];
+    const labels = values.map((_, i) => `${i + 1} 手`);
+
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: '評価値',
+          data: values,
+          borderWidth: 2,
+          borderColor: 'blue',
+          fill: false,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: false
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
